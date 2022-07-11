@@ -7,6 +7,6 @@ def hello_world():
 
 result = ray.get(hello_world.remote())
 
-anyscale.job.output({
-  "result": result
-})
+# anyscale.job.output({
+#   "result": result
+# })
