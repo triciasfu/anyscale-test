@@ -1,5 +1,3 @@
-!pip install -qU "ray[tune]" sklearn xgboost_ray wandb
-
 import ray
 
 from ray.air.config import RunConfig, ScalingConfig
